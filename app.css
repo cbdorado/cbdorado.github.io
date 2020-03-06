@@ -1,0 +1,22 @@
+body {
+    background-color: #3f51b5;
+    font-family: 'Spartan', sans-serif;
+}
+
+#mainNavbar {
+    size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #ec407a;
+}
+
+#mainNavbar .navbar-brand{
+    color: #1de9b6;
+    font-size: 1.5rem;
+}
