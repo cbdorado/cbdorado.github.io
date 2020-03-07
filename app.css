@@ -8,6 +8,17 @@ body {
     border-radius: 50%;
 }
 
+#aboutPhotos {
+    padding: 0% 10% 0% 10%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    border-radius: 50%;
+}
+
+#about {
+    background-color: #ec407a;
+}
+/* mainNavbar */
 #mainNavbar {
     size: 1.5rem;
     font-weight: 100;
@@ -18,10 +29,49 @@ body {
 }
 
 #mainNavbar .nav-link:hover {
-    color: #ec407a;
+    color: #fff59d;
 }
 
 #mainNavbar .navbar-brand{
     color: #1de9b6;
     font-size: 1.5rem;
+}
+
+/* Animations */
+
+/**
+ * cssanimation.css
+ * https://www.cssanimatio.io
+ * Created and maintained by: Pavel
+ * Find me at: https://www.linkedin.com/in/yesiamrocks/
+ * Email: hello@cssanimation.io
+ * Github: https://github.com/yesiamrocks/cssanimation.io
+ * Title: A CSS Animation Library for Developers and Ninjas
+ * Copyright (c) 2017 Pavel
+ * License: cssanimation.io is licensed under the MIT license
+ **/
+
+.cssanimation, .cssanimation span {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.cssanimation span { display: inline-block }
+
+.fadeInBottom { animation-name: fadeInBottom }
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to { opacity: 1 }
+}
+
+/* Media Queries */
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
 }
