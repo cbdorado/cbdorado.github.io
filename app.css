@@ -18,6 +18,24 @@ body {
 #about {
     background-color: #ec407a;
 }
+
+.blurb p {
+    font-size: 1.125rem;
+}
+
+#contact {
+    background-color: #ec407a;
+}
+
+#contactIcon {
+    color: white;
+    text-decoration: none;
+}
+
+#projects {
+    background-color: #3f51b5;
+    color: white;
+}
 /* mainNavbar */
 #mainNavbar {
     size: 1.5rem;
