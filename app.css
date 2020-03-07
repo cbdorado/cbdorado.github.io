@@ -3,6 +3,11 @@ body {
     font-family: 'Spartan', sans-serif;
 }
 
+#me {
+    padding: 25% 25% 25% 25%;
+    border-radius: 50%;
+}
+
 #mainNavbar {
     size: 1.5rem;
     font-weight: 100;
