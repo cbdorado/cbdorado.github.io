@@ -2,7 +2,9 @@ body {
     background-color: #3f51b5;
     font-family: 'Spartan', sans-serif;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 #me {
     padding: 25% 25% 25% 25%;
     border-radius: 50%;
